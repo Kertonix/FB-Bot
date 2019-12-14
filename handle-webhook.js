@@ -5,9 +5,11 @@ const handleWebhook = (req, res) => {
   const senderId = data.sender.id;
   const message = data.message;
 
+  console.log(message);
+
   if (message.text) {
     const text = message.text;
-    respond(senderId, { text: "Hej!" });
+    respond(senderId, { text: "Hej!" + " Napisales " + message.text });
   }
 
   res.sendStatus(200);

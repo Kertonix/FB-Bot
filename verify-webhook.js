@@ -1,4 +1,4 @@
-let VERIFY_TOKEN = "";
+let VERIFY_TOKEN = "12345";
 
 const verifyWebhook = (req, res) => {
   let mode = req.query["hub.mode"];
