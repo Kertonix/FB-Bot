@@ -12,12 +12,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", verifyWebhook);
-app.post("/", handleWebhook);
-
-
+app.post("/", (req, res) =>handleWebhook(req, res, state));
 
 app.get("/state", () => {
-    state.startConversation(5);
     state.getData();
 })
 
