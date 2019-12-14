@@ -1,4 +1,4 @@
-export default mock = [
+module.exports = [
   {
     name: 'American Burger',
     cousine: 'burger',
@@ -120,4 +120,4 @@ export default mock = [
     rating: '4.1',
     vege: false,
   },
-];
+]
