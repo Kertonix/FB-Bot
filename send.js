@@ -1,6 +1,6 @@
 const fetch = require("node-fetch");
 
-const ACCESS_TOKEN = "EAASZC6bqk20YBAMGZCUmVQVcpYkhtOEhyYA2E4Cceq93T8xTfLblLhZABHdzVjg0v8aqNsS3BBgM04cZChr6Lselc23cNV03kTtJJnXWJGe2pYXGsGtsw1O3QVrNsIMPalLkLg4c3CUpYqN6XDIYickartZByzQnU5H8D0skTcNPuLIgtJkS7rpCF9KdrIyMZD";
+const ACCESS_TOKEN = "EAAGWO4CvsmEBAAMuuasbOKBlv0qyJnKosZBRr09OvkuYWr297bGUzcXyLs56FP8f3bVXPKBfDq62u7E6JfsHT1Q9ZCZA2WIdbS3aykJtYBx4jfdzrxFdRbvbLwca7vSMoiCPOZALhZASLnITuWgQcaZBKohIcyzhYV4fdQnyFcZBZAUJp5rAl79e";
 
 const sendMessage = (recipientId, payload) => {
   const body = {
