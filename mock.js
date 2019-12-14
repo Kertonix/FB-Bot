@@ -70,8 +70,8 @@ module.exports = [
     cousine: 'itaian',
     pricePoint: 'high',
     coords: {
-      long: '21.013887',
-      lat: '52.234887',
+      long: '21',
+      lat: '52',
     },
     rating: '4.2',
     vege: true,
@@ -81,8 +81,8 @@ module.exports = [
     cousine: 'burger',
     pricePoint: 'medium',
     coords: {
-      long: '21.004166',
-      lat: '52.241587',
+      long: '21',
+      lat: '52',
     },
     rating: '3.3',
     vege: true,
@@ -92,8 +92,8 @@ module.exports = [
     cousine: 'burger',
     pricePoint: 'low',
     coords: {
-      long: '20.999538',
-      lat: '52.220873',
+      long: '21',
+      lat: '52',
     },
     rating: '3.6',
     vege: false,
